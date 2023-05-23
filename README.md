@@ -68,7 +68,7 @@ Primeiro, deve-se instalar todas as ferramentas necessárias para rodar o projet
 
 1. Clone o repositório
     ```sh
-    $ git clone https://github.com/christhian12rv/Companies-Management.git
+    $ git clone https://github.com/christhian12rv/API-For-Image-Compression.git
     ```
 2. Vá à pasta do projeto e instale os pacotes npm
     ```sh
@@ -78,10 +78,10 @@ Primeiro, deve-se instalar todas as ferramentas necessárias para rodar o projet
 ### Rodando o projeto
 
 Crie um arquivo .env na raíz do projeto. Em seguida, altere o arquivo .env
-    ```sh
+
     PORT=PORTA_DO_SERVIDOR
     DATABASE_URL=mongodb://{USUARIO}:{SENHA}{HOST}:{PORTA}/imageCompression?retryWrites=true&w=majority
-    ```
+    
     
 Execute o seguinte comando para subir a aplicação
 
