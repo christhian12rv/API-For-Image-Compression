@@ -80,7 +80,7 @@ Primeiro, deve-se instalar todas as ferramentas necessárias para rodar o projet
 Crie um arquivo .env na raíz do projeto. Em seguida, altere o arquivo .env
 
     PORT=PORTA_DO_SERVIDOR
-    DATABASE_URL=mongodb://{USUARIO}:{SENHA}{HOST}:{PORTA}/imageCompression?retryWrites=true&w=majority
+    DATABASE_URL=mongodb://{USUARIO}:{SENHA}@{HOST}:{PORTA}/imageCompression?retryWrites=true&w=majority
     
     
 Execute o seguinte comando para subir a aplicação
